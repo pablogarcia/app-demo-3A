@@ -32,7 +32,7 @@ export class InvertvowelsService {
 
         }
 
-        return  ;
+        return  newWord;
         
     }
 }

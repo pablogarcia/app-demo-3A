@@ -11,7 +11,7 @@ async function bootstrap() {
       secret: '3 Astronautas', 
       resave: false,
       saveUninitialized: false,
-      cookie: {maxAge: 3000}
+      cookie: {maxAge: 10000} //10 seconds
     }),
   );
   app.use(passport.initialize());
